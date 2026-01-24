@@ -1,0 +1,23 @@
+fieldset{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    background-color: rgb(162, 167, 110);
+    font-feature-settings: sans-serif;
+    width:700px;
+    margin:20px auto;
+}
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+table{
+    margin: 0 auto;
+    border-collapse:collapse;
+    border:2px solid black;
+    width:100%;
+
+}
