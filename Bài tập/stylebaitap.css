@@ -1,0 +1,75 @@
+body
+{    margin: 0; 
+    padding: 0; 
+    font-family:Arial;
+    box-sizing: border-box;
+    background-color: rgb(172, 150, 193);
+
+}
+
+.header{
+    background-color: white;
+    text-align: center;
+    padding:25px 0;
+    color:rgb(113, 113, 218)
+}
+ .header h1{
+    color:purple;
+}
+header p{
+    font-size:13px;
+}
+.khung-ngoài{
+    width:95%;
+    margin: auto;
+
+
+}
+
+.menu{
+    background-color:#5b007a;
+    margin-top:5px;
+    text-align: center;
+
+}
+.menu ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width:90%;
+}
+.menu li{
+    padding: 15px 30px;
+    color:white;
+  
+}
+.dang-ky{
+    margin-left:auto;
+}
+.container{
+    display:flex;
+    margin-top:20px;
+    gap:20px;
+}
+.main{
+    flex:3;
+    background-color:white;
+    padding:20px;
+}
+.sidebar{
+    flex:1;
+    background-color:white;
+    padding:20px;
+}
+.image{
+    background-color:#c994da;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:20px;
+}
+.outer{
+    padding:25px;
+    background-color:#e8c9f0;
+}
