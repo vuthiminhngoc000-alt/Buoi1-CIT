@@ -1,0 +1,814 @@
+a:hover{
+ color:rgb(95, 92, 162);
+}
+a{
+    color:rgb(252, 253, 253);
+}
+body{
+    background-color: rgb(199, 95, 142);
+
+}
+.logo{
+    display:flex;
+    align-items:center;
+    gap:100px;
+    margin-left:auto;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 8%;
+}
+nav{
+    display:flex;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:rgb(93, 113, 170);
+    font-weight:500;
+}
+
+header{
+
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:35px 8%;
+
+    background:transparent;
+
+    transition:0.3s;
+    z-index:1000;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:60px;
+}
+
+.logo-text h1{
+    font-size:40px;
+    color: rgb(95, 92, 162);
+    margin:0;
+}
+
+.logo-text p{
+    font-size:12px;
+    letter-spacing:3px;
+    color: rgb(95, 92, 162);
+    margin:0;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 8%;
+}
+header.active a{
+color:black;
+}
+.Thanhdieuhuong {
+  display: flex;
+  gap: 1px;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(4, 169, 239);
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  color:rgb(249, 249, 247);
+  padding: 20px 120px;
+    margin-left: auto;
+    background: transparent;
+    
+
+}
+header.active{
+
+   background:rgba(255,255,255,0.7);
+
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+
+}
+
+.Thanhdieuhuong a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+/* Hiệu ứng khi hover cho tất cả nút */
+.Thanhdieuhuong a:hover {
+  color: #00c896;
+  background: rgba(0,0,0,0.35);
+  box-shadow: 0 0 10px rgba(0, 200, 150, 0.3);
+}
+#home{
+    color:rgb(16, 16, 17);
+}
+h1{
+    color:aliceblue;
+}
+p{
+    color:aliceblue;
+}
+
+.Readmore{
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 50px;
+  background: #e6e6e6;
+  color: rgb(95, 92, 162);
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid rgb(95, 92, 162);
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.Readmore:hover{
+  background: rgb(95, 92, 162);
+  color: white;
+  box-shadow: 0 0 15px rgba(95, 92, 162, 0.6);
+}
+.sectiontrang2{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: 120px;
+  color: white;
+}
+
+/* WELCOME TO */
+#about{
+  color: rgb(95, 92, 162);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.about-imageabout{
+
+    display:flex;
+    justify-content:center;
+
+}
+.Aboutus{
+   display:grid;
+    grid-template-columns:1fr 1fr;  /* 2 cột */
+    align-items:center;
+    gap:60px;
+    padding:60px;
+    border-radius:10px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+.about-imageabout img{
+    width:520px;
+    border-radius:10px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+ width:100%;
+    max-width:550px;
+    border-radius:10px;
+}
+
+/* Tiêu đề lớn */
+.Aboutus h1{
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+/* đoạn text nhỏ */
+.doanotrang2{
+  color: #f5f8f8;
+  font-size: 16px;
+  max-width: 520px;
+  margin-bottom: 40px;
+}
+.Findphone{
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 50px;
+  background: #e6e6e6;
+  color: rgb(95, 92, 162);
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid rgb(95, 92, 162);
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.Findphone:hover{
+  background: rgb(95, 92, 162);
+  color: white;
+  box-shadow: 0 0 15px rgba(95, 92, 162, 0.6);
+}
+.sectiontrangdau{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: 120px;
+  color: white; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    background-image:url("nentrang1.jpg.jpg");
+}
+
+/* WELCOME TO */
+.welcome{
+  color: rgb(95, 92, 162);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+/* Tiêu đề lớn */
+.Welcometo h1{
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+/* đoạn text nhỏ */
+.doanotrangdau{
+  color: #f8f8f8;
+  font-size: 16px;
+  max-width: 520px;
+  margin-bottom: 40px;
+}
+.services{
+    padding:80px 10%;
+    text-align:center;
+      background-image:url("nentrangservicemoi.jpg");
+}
+
+.title{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+/* GRID */
+.services-grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px;
+}
+
+/* CARD */
+.card{
+    background: rgba(0,0,0,0.6);
+    padding:20px;
+    border-radius:10px;
+
+    /* FLEX */
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.card h3{
+    color:#cbbe97;
+    margin:20px 0 10px;
+    font-size:22px;
+}
+
+.card p{
+    font-size:14px;
+    line-height:1.6;
+}
+.menu{
+    padding:80px 10%;
+    background-color: #eee;
+}
+
+.menu-title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:60px;
+    color:#111
+}
+
+/* GRID */
+
+.menu-grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px;
+}
+
+/* ITEM */
+
+.menu-item{
+    display:flex;
+    gap:20px;
+    align-items:flex-start;
+}
+
+/* IMAGE */
+
+.menu-item img{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+/* CONTENT */
+
+.menu-content{
+    flex:1;
+}
+
+
+
+.menu-head{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.menu-head h3{
+    margin:0;
+    font-size:20px;
+}
+
+.line{
+    flex:1;
+    height:1px;
+    background:#999;
+}
+
+.price{
+    font-weight:bold;
+}
+
+/* TEXT */
+
+.menu-content p{
+    margin-top:8px;
+    font-size:14px;
+    color:#555;
+}
+span{
+  color:rgb(27, 28, 29)
+}
+.opening{
+    height:600px;
+    background-image: url("nenopeninghour.jpg");
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+/* lớp nền tối */
+
+.opening::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(73, 50, 94, 0.6);
+}
+
+/* GRID căn giữa */
+
+.opening-container{
+    position:relative;
+    height:100%;
+
+    display:grid;
+    place-items:center;
+}
+
+/* FLEX sắp xếp text */
+
+.opening-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:15px;
+    color:white;
+}
+
+.small-title{
+    font-size:18px;
+    font-weight:500;
+}
+
+.big-title{
+    font-size:48px;
+    color:rgb(95, 92, 162);
+    margin:0;
+}
+
+.desc{
+    max-width:600px;
+}
+
+.reservation{
+    color:rgb(95, 92, 162);
+    margin-top:20px;
+}
+
+.phone{
+    font-size:20px;
+}
+
+.time-box{
+    margin-top:20px;
+}
+
+.time-box h3{
+    font-size:28px;
+    margin:0;
+}
+
+.time-box p{
+    font-size:18px;
+}
+.gallery-section{
+    padding:80px 8%;
+    background:#eee;
+}
+
+/* TITLE */
+
+.gallery-title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:50px;
+}
+
+/* GRID */
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+/* ITEM */
+
+.gallery-item{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    overflow:hidden;
+    border-radius:10px;
+}
+
+/* IMAGE */
+
+.gallery-item img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:0.4s;
+}
+
+/* HOVER EFFECT */
+
+.gallery-item:hover img{
+    transform:scale(1.1);
+}
+.latest-blog{
+    padding:80px 8%;
+    background:#a4668c;
+}
+
+.blog-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:40px;
+}
+
+/* title */
+
+.blog-title{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.blog-title h1{
+    font-size:60px;
+    color:rgb(95, 92, 162);
+}
+
+.blog-title span{
+    font-size:28px;
+    color:white;
+}
+.blog-card{
+    height:450px;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    display:flex;
+    align-items:center;
+}
+
+.blog-card::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(127, 125, 105, 0.6);
+}
+.content{
+    position:relative;
+    color:white;
+    padding:40px;
+
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+
+    border:1px solid rgba(255,255,255,0.3);
+}
+
+.tag{
+    margin-top:auto;
+    letter-spacing:4px;
+}
+.card1{ background-image:url(anh1.jpg); }
+.card2{ background-image:url(anh2.jpg); }
+.card3{ background-image:url(anh4.jpg); }
+.card4{ background-image:url(anh3.jpg); }
+.card5{ background-image:url(anh5.jpg); }
+.reviews{
+    padding:80px 8%;
+    background:#f2f2f2;
+    text-align:center;
+}
+
+.review-title{
+    font-size:36px;
+    margin-bottom:50px;
+}
+
+.review-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:40px;
+}
+.review-card{
+    background:white;
+    padding:40px 30px;
+    border-radius:10px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+.avatar{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+}
+.review-card h3{
+    color:rgb(95, 92, 162);
+    font-size:22px;
+}
+
+.stars{
+    color:gold;
+    font-size:20px;
+}
+
+.review-card p{
+    font-size:15px;
+    line-height:1.6;
+}
+
+.author{
+    color:rgb(95, 92, 162);
+    font-weight:bold;
+}
+.chefs{
+    padding:80px 8%;
+    background:#111;
+    color:white;
+}
+
+.chef-title{
+    text-align:center;
+    font-size:36px;
+    margin-bottom:60px;
+}
+
+.chef-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+}
+.chef-text{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:15px;
+}
+.chef-text h3{
+    font-size:28px;
+}
+
+.chef-text h4{
+    color:rgb(95, 92, 162);
+    font-size:20px;
+}
+
+.chef-text p{
+    line-height:1.6;
+    max-width:500px;
+}
+.chef-img img{
+    width:100%;
+    border-radius:10px;
+    object-fit:cover;
+}
+.contact{
+    padding:100px 8%;
+    background:black;
+    color:white;
+}
+
+.contact-title{
+    text-align:center;
+    font-size:36px;
+    margin-bottom:60px;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px; 
+}
+.contact-left{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+.contact-right{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+.contact input,
+.contact textarea{
+
+    width:100%;
+    padding:18px 20px;
+
+    border:none;
+    border-radius:6px;
+
+    font-size:16px;
+}
+.contact textarea{
+    height:150px;
+    resize:none;
+}
+.contact-btn{
+
+    width:200px;
+    padding:15px;
+
+    border:none;
+    border-radius:30px;
+
+    background:rgb(95, 92, 162);
+    color:white;
+
+    font-size:16px;
+    cursor:pointer;
+}
+*{
+    box-sizing: border-box;
+}
+.info{
+    background-image: url("location1.webp");
+    background-size: cover;
+    background-position: center;
+    padding:100px 8%;
+}
+.info-grid{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:40px;
+
+    color:rgb(246, 239, 239);
+    text-align:center;
+}
+.info-item{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
+.info-item i{
+    font-size:35px;
+    margin-bottom:10px;
+}
+.footer{
+    background:black;
+    padding:30px 8%;
+}
+.footer-container{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    color:white;
+}
+.social{
+
+    display:flex;
+    gap:15px;
+
+}
+.social a{
+
+    background:rgb(115, 112, 184);
+    color:white;
+
+    width:45px;
+    height:45px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:6px;
+    text-decoration:none;
+    margin-left:0%;
+}
+.footer-container{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    margin-right:auto;
+}
+
+.footer-container img{
+    width:60px;
+
+}
+
+.footer-logo h1{
+    font-size:40px;
+    color:rgb(95, 92, 162);
+    margin-right: auto;
+}
+
+.footer-logo p{
+    font-size:12px;
+    letter-spacing:3px;
+    color:rgb(95, 92, 162);
+    margin-right: auto;
+}
